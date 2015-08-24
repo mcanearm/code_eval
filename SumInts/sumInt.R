@@ -1,6 +1,6 @@
-#sumInt.R
-file <- commandArgs(trailingOnly=TRUE)[[1]] 
+file <- commandArgs(trailingOnly=TRUE)[[1]]
 
-ints <- readLines('SumInts/_test.txt', warn=FALSE)
+ints <- readLines(file)
 ints <- as.numeric(ints)
-print(sum(ints))
+
+cat(sum(ints, na.rm=TRUE))

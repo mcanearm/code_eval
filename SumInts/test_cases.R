@@ -1,1 +1,1 @@
-cat(paste(sample(1:1000, 25000000, replace=TRUE), collapse='\n'), file='SumInts/_test.txt')
+cat(paste(sample(1:50, 250, replace=TRUE), collapse='\n'), file='SumInts/_test.txt')
