@@ -1,0 +1,1 @@
+cat(paste(sample(1:50, 250, replace=TRUE), collapse='\n'), file='SumInts/_test.txt')
